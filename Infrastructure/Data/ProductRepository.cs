@@ -4,7 +4,7 @@ using Core.Entities;
 using Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infraestructure.Data
+namespace Infrastructure.Data
 {
     public class ProductRepository : IProductRepository
     {

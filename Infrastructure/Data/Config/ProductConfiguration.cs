@@ -2,7 +2,7 @@ using Core.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Infraestructure.Data.Config
+namespace Infrastructure.Data.Config
 {
     public class ProductConfiguration : IEntityTypeConfiguration<Product>
     {
