@@ -22,7 +22,7 @@
               <h5 class="text-warning ml-3">Types</h5>
               <div class="list-group my-3">
                 <a href="#" class="list-group-item list-group-item-action" *ngFor="let type of types" [class.active]="type.id === this.shopParams.typeId"
-                [value]="type.id" (click)="onTypeSelected(type.id)">
+                [value]='type.id' (click)="onTypeSelected(type.id)">
                   {{type.name}}
                 </a>               
               </div>
